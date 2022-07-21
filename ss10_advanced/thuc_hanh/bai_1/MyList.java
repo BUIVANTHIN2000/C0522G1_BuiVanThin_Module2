@@ -1,4 +1,4 @@
-package ss9_Advanced.thuc_hanh.bai_1;
+package ss9_advanced.thuc_hanh.bai_1;
 
 import java.util.Arrays;
 

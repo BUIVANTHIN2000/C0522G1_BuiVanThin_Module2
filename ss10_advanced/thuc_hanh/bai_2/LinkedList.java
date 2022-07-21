@@ -1,4 +1,4 @@
-package ss9_Advanced.thuc_hanh.bai_2;
+package ss9_advanced.thuc_hanh.bai_2;
 
 public class LinkedList {
     private Node head;

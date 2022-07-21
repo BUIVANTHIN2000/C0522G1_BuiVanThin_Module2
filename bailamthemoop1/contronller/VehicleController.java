@@ -10,11 +10,11 @@ public class VehicleController {
  private Scanner scanner = new Scanner(System.in);
     public void menuAddVehicle() {
         do {
-            System.out.println("Thêm mới phương tiện\n" +
-                    "1. Thêm xe tải\n" +
-                    "2. Thêm xe Ôtô\n" +
-                    "3. Thêm xe máy\n" +
-                    "4. Thoát");
+            System.out.println("Add new vehicle\n" +
+                    "1. Add Truck\n" +
+                    "2. Add Car\n" +
+                    "3. Add Motobycle\n" +
+                    "4. Exit");
             int chooseAddVehicle = Integer.parseInt(scanner.nextLine());
             switch (chooseAddVehicle) {
                 case 1:{

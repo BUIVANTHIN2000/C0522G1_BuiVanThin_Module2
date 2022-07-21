@@ -13,7 +13,7 @@ public class Motorcycle extends Vehicle {
     public Motorcycle() {
     }
 
-    public Motorcycle(String seaOfControl, String maFactureName, String yearManuFature, String owner, int wattage) {
+    public Motorcycle(int seaOfControl, String maFactureName, String yearManuFature, String owner, int wattage) {
         super(seaOfControl, maFactureName, yearManuFature, owner);
         this.wattage = wattage;
     }

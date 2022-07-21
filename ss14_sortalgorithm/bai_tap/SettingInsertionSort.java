@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class SettingInsertionSort {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập số lượng phần tử trong mảng");
+        System.out.println("Nhập số lượng phần tử trong mảng: ");
         int m = Integer.parseInt(scanner.nextLine());
         int[] array = new int[m];
         for (int i = 0; i < m; i++) {
-            System.out.println("nhập phần tử thứ " + i);
+            System.out.println("nhập phần tử thứ: " + i);
             array[i] = Integer.parseInt(scanner.nextLine());
         }
         System.out.println(Arrays.toString(array));
@@ -21,12 +21,10 @@ public class SettingInsertionSort {
         int x;
         int pos;
         for (int i = 1; i < arr.length; i++) {
-            //lấy giá trị để đi chèn
             x = arr[i];
             pos = i;
             //chèn vào vị trí thích hợp ở mảng con
             while (0 < pos && x < arr[pos - 1]) {
-//                System.out.println("Dịch chuyển phần tử");
                 arr[pos] = arr[pos - 1];
                 pos--;
             }

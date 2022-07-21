@@ -4,9 +4,6 @@ public class Car extends Vehicle {
     private String numberOfSeats; // Số chỗ ngồi
     private String vihecleType; // Kiểu xe
 
-    public Car(String seOfControl, String manufatureName, String owner, String numberOfSeats, String vihecleType) {
-    }
-
     @Override
     public String toString() {
         return "Car{" + super.toString() +
@@ -14,11 +11,9 @@ public class Car extends Vehicle {
                 ", vihecleType='" + vihecleType + '\'' +
                 '}';
     }
-
     public Car() {
     }
-
-    public Car(String seaOfControl, String maFactureName, String yearManuFature, String owner, String numberOfSeats, String vihecleType) {
+    public Car(int seaOfControl, String maFactureName, String yearManuFature, String owner, String numberOfSeats, String vihecleType) {
         super(seaOfControl, maFactureName, yearManuFature, owner);
         this.numberOfSeats = numberOfSeats;
         this.vihecleType = vihecleType;

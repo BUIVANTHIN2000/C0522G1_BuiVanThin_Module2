@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BubbleSortByStep {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter list size:");
+        System.out.print("Enter list size:  ");
         int size = scanner.nextInt();
         int[] list = new int[size];
         System.out.println("Enter " + list.length + " values:");
@@ -48,6 +48,5 @@ public class BubbleSortByStep {
             System.out.println();
         }
     }
-
 }
 

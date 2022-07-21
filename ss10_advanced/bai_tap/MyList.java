@@ -1,4 +1,4 @@
-package ss9_Advanced.bai_tap;
+package ss9_advanced.bai_tap;
 import java.util.Arrays;
 import java.util.Scanner;
 

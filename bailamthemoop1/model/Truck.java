@@ -13,7 +13,7 @@ public class Truck extends Vehicle {
     public Truck() {
     }
 
-    public Truck(String seaOfControl, String maFactureName, String yearManuFature, String owner, int tonnage) {
+    public Truck(int seaOfControl, String maFactureName, String yearManuFature, String owner, int tonnage) {
         super(seaOfControl, maFactureName, yearManuFature, owner);
         this.tonnage = tonnage;
     }
